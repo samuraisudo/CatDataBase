@@ -13,4 +13,7 @@
 > cat_column(); # to create column and edit data in column<br>Example:<br>cat_column("db_name", "table_name", "column_name", $key);<hr>
 > cat_del_column(); # deletes the column<br>Example:<br>cat_del_column("db_name", "table_name", "column_name", $key);<hr>  
 > cat_edit_column(); # rename column<br>Example:<br>cat_edit_column("db_name". "table_name", "column_old_name", "column_new_name", $key);<hr> 
-> cat_read(); # For read data<br>Example:<br>echo(cat_read("db_name", "table", "column", $key)); 
+> cat_read(); # For read data<br>Example:<br>echo(cat_read("db_name", "table", "column", $key)); <hr>
+> cat_db_list(); # Returns an array with a list of databases <br>Example:<br>cat_db_list($key); <hr>
+> cat_table_list(); # Returns an array with a list of table <br>Example:<br>cat_table_list("db_name", $key); <hr>
+> cat_column_list(); # Returns an array with a list of column <br>Example:<br>cat_column_list("db_name", "table_name", $key); <hr>
