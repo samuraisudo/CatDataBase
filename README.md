@@ -2,6 +2,7 @@
 > Open page http://domain/CatDataBase/install.php for install.
 > Enter new Login and Password
 # To connect, use an array with login and password
+> include("./CatDataBase/index.php");<br>
 > $key = array("login", "password");
 # Using
 > cat_db(); # to create a database<br>Example:<br>cat_db("db_name", $key); # $key - this is an array with login and password<hr>
